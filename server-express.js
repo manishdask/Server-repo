@@ -7,17 +7,17 @@ const app = express();
 // Choose port
 const PORT = 5000;
 
-// Route: home
+// Route home
 app.get('/', (req, res) => {
   res.send('Hello, this is my first Express server!');
 });
 
-// Route: about
+// Route about
 app.get('/about', (req, res) => {
   res.send('This is the About Page.');
 });
 
-// Route: API
+// Route API
 app.get('/api', (req, res) => {
   const data = {
     name: "Manish",
