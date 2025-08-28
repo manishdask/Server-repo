@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Choose port
-const PORT = 5000;
+const PORT = 3000;
 
 // Route home
 app.get('/', (req, res) => {
